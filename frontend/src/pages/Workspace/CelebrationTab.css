@@ -258,7 +258,11 @@ html[data-theme="dark"] .assets-tabs button:hover {
 }
 
 html[data-theme="dark"] .assets-tabs button.active {
-  background: #ffffff;
-  color: #08080a;
+  background: #ffffff !important;
+  color: #08080a !important;
+}
+
+html[data-theme="dark"] .assets-tabs button.active * {
+  color: #08080a !important;
 }
 

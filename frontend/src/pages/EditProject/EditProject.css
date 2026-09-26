@@ -245,8 +245,12 @@ html[data-theme="dark"] .edit-project__card {
 }
 
 html[data-theme="dark"] .edit-project__step-circle.is-completed {
-	background: #ffffff;
-	color: #08080a;
+	background: #ffffff !important;
+	color: #08080a !important;
+}
+
+html[data-theme="dark"] .edit-project__step-circle.is-completed * {
+	color: #08080a !important;
 }
 
 html[data-theme="dark"] .edit-project__step-circle.is-current {
@@ -268,11 +272,21 @@ html[data-theme="dark"] .edit-project__button--success {
 	border-color: #ffffff !important;
 }
 
+html[data-theme="dark"] .edit-project__button--primary *,
+html[data-theme="dark"] .edit-project__button--success * {
+	color: #08080a !important;
+}
+
 html[data-theme="dark"] .edit-project__button--primary:hover,
 html[data-theme="dark"] .edit-project__button--success:hover {
 	background: #08080a !important;
 	color: #ffffff !important;
 	border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .edit-project__button--primary:hover *,
+html[data-theme="dark"] .edit-project__button--success:hover * {
+	color: #ffffff !important;
 }
 
 html[data-theme="dark"] .edit-project__button--secondary {

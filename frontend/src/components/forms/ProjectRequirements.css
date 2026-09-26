@@ -196,14 +196,22 @@ html[data-theme="dark"] .project-req__input:focus {
 }
 
 html[data-theme="dark"] .project-req__add {
-  background: #ffffff;
-  color: #08080a;
-  border-color: #ffffff;
+  background: #ffffff !important;
+  color: #08080a !important;
+  border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .project-req__add * {
+  color: #08080a !important;
 }
 
 html[data-theme="dark"] .project-req__add:hover {
-  background: #08080a;
-  color: #ffffff;
-  border-color: #ffffff;
+  background: #08080a !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .project-req__add:hover * {
+  color: #ffffff !important;
 }
 

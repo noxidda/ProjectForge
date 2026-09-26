@@ -12,6 +12,27 @@
 	--font-serif: 'Cormorant Garamond', Georgia, serif;
 }
 
+/* =========================================================================
+ * UNIVERSAL TYPOGRAPHY RESET: NO BOLD FONT ANYWHERE (REGULAR WEIGHT 400)
+ * Per user request: "do not use bold font anywhere in the website".
+ * ========================================================================= */
+*,
+*::before,
+*::after,
+html,
+body,
+h1, h2, h3, h4, h5, h6,
+p, span, div, a, button, input, select, textarea,
+strong, b, th, td, label, li, dt, dd,
+blockquote, form, fieldset, legend,
+header, footer, nav, section, article, aside, main {
+	font-weight: 400 !important;
+}
+
+b, strong {
+	font-weight: 400 !important;
+}
+
 /* Universal Card & Box Title Underline Styles */
 .account__card-title,
 .workspace__card-title,
@@ -269,14 +290,36 @@ html[data-theme="dark"] .navbar__cta-btn:hover {
 
 html[data-theme="dark"] .dashboard-header__btn {
 	background: #FFFFFF !important;
-	color: #000000 !important;
-	border-color: #FFFFFF !important;
+	color: #08080a !important;
+	border: 1px solid #FFFFFF !important;
+}
+
+html[data-theme="dark"] .dashboard-header__btn *,
+html[data-theme="dark"] .dashboard-header__btn span,
+html[data-theme="dark"] .dashboard-header__btn strong {
+	color: #08080a !important;
+}
+
+html[data-theme="dark"] .dashboard-header__btn svg {
+	color: #08080a !important;
+	stroke: currentColor !important;
 }
 
 html[data-theme="dark"] .dashboard-header__btn:hover {
-	background: #E4E4E7 !important;
-	color: #333333 !important;
-	border-color: #E4E4E7 !important;
+	background: #08080a !important;
+	color: #ffffff !important;
+	border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .dashboard-header__btn:hover *,
+html[data-theme="dark"] .dashboard-header__btn:hover span,
+html[data-theme="dark"] .dashboard-header__btn:hover strong {
+	color: #ffffff !important;
+}
+
+html[data-theme="dark"] .dashboard-header__btn:hover svg {
+	color: #ffffff !important;
+	stroke: currentColor !important;
 }
 
 html[data-theme="dark"] .spinner {
@@ -555,13 +598,13 @@ html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
 .dashboard-sidebar__tab {
 	padding: 12px 16px;
 	border-radius: 8px;
-	background: #EFECE6;
+	background: #FAF8F2;
 	color: var(--color-text-dark);
 	font-weight: 400 !important;
 	font-size: 14px;
 	text-align: left;
 	transition: all 0.15s ease;
-	border: 1px solid rgba(18, 18, 20, 0.08);
+	border: 1px solid rgba(18, 18, 20, 0.15) !important;
 	cursor: pointer;
 }
 
@@ -583,6 +626,46 @@ html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
 	background: #121214 !important;
 	color: #ffffff !important;
 	border-color: #121214 !important;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab,
+html[data-theme="dark"] .browse-sidebar__tab {
+	background: #141416 !important;
+	color: #a3a3a3 !important;
+	border: 1px solid rgba(255, 255, 255, 0.18) !important;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab:not(.is-active):hover:not(:disabled),
+html[data-theme="dark"] .browse-sidebar__tab:not(.is-active):hover:not(:disabled) {
+	background: #242428 !important;
+	color: #ffffff !important;
+	border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active,
+html[data-theme="dark"] .browse-sidebar__tab.is-active {
+	background: #ffffff !important;
+	color: #08080a !important;
+	border: 1px solid #ffffff !important;
+	font-weight: 400 !important;
+	cursor: default;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active *,
+html[data-theme="dark"] .browse-sidebar__tab.is-active * {
+	color: #08080a !important;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active:hover,
+html[data-theme="dark"] .browse-sidebar__tab.is-active:hover {
+	background: #f0f0f0 !important;
+	color: #08080a !important;
+	border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active:hover *,
+html[data-theme="dark"] .browse-sidebar__tab.is-active:hover * {
+	color: #08080a !important;
 }
 
 .dashboard-sidebar__tab:disabled {
@@ -836,9 +919,72 @@ html[data-theme="dark"] .project-card__owner-avatar {
 	color: #08080a !important;
 }
 
-/* Strict High-Priority Dark Mode Button Overrides: Start Project, Windows Download, View Cards */
+/* =========================================================================
+ * Strict High-Priority Dark Mode Button Overrides: White BG, Dark Text
+ * Ensures all buttons, links, tabs, and their inner children (span, strong, svg)
+ * have crisp, high-contrast dark text (#08080a) on white backgrounds.
+ * ========================================================================= */
+html[data-theme="dark"] .project-card__action,
+html[data-theme="dark"] .project-card__action *,
+html[data-theme="dark"] .project-card__action span,
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active,
+html[data-theme="dark"] .dashboard-sidebar__tab.is-active *,
+html[data-theme="dark"] .browse-sidebar__tab.is-active,
+html[data-theme="dark"] .browse-sidebar__tab.is-active *,
+html[data-theme="dark"] .btn--primary,
+html[data-theme="dark"] .btn--primary *,
+html[data-theme="dark"] .dashboard-header__btn,
+html[data-theme="dark"] .dashboard-header__btn *,
+html[data-theme="dark"] .pub-btn--primary,
+html[data-theme="dark"] .pub-btn--primary *,
+html[data-theme="dark"] .pub-btn--windows,
+html[data-theme="dark"] .pub-btn--windows *,
+html[data-theme="dark"] .summary-btn,
+html[data-theme="dark"] .summary-btn *,
+html[data-theme="dark"] .my-projects__empty-action,
+html[data-theme="dark"] .my-projects__empty-action *,
+html[data-theme="dark"] .apps-empty__action,
+html[data-theme="dark"] .apps-empty__action *,
+html[data-theme="dark"] .modal__button--primary,
+html[data-theme="dark"] .modal__button--primary *,
+html[data-theme="dark"] .event-modal__btn,
+html[data-theme="dark"] .event-modal__btn *,
+html[data-theme="dark"] .create-project__button--primary,
+html[data-theme="dark"] .create-project__button--primary *,
+html[data-theme="dark"] .create-project__button--success,
+html[data-theme="dark"] .create-project__button--success *,
+html[data-theme="dark"] .edit-project__button--primary,
+html[data-theme="dark"] .edit-project__button--primary *,
+html[data-theme="dark"] .edit-project__button--success,
+html[data-theme="dark"] .edit-project__button--success *,
+html[data-theme="dark"] .workspace__tab.is-active,
+html[data-theme="dark"] .workspace__tab.is-active * {
+	color: #08080a !important;
+}
+
+html[data-theme="dark"] .project-card__action svg,
+html[data-theme="dark"] .pub-btn--windows svg,
+html[data-theme="dark"] .dashboard-header__btn svg,
+html[data-theme="dark"] .btn--primary svg {
+	stroke: #08080a !important;
+	color: #08080a !important;
+}
+
+/* Hover: Inverted Black BG, White Text, White Border */
 html[data-theme="dark"] .navbar__cta-btn:hover,
 html[data-theme="dark"] .pub-btn--windows:hover,
+html[data-theme="dark"] .pub-btn--primary:hover,
+html[data-theme="dark"] .btn--primary:hover,
+html[data-theme="dark"] .dashboard-header__btn:hover,
+html[data-theme="dark"] .summary-btn:hover,
+html[data-theme="dark"] .my-projects__empty-action:hover,
+html[data-theme="dark"] .apps-empty__action:hover,
+html[data-theme="dark"] .modal__button--primary:hover,
+html[data-theme="dark"] .event-modal__btn:hover,
+html[data-theme="dark"] .create-project__button--primary:hover,
+html[data-theme="dark"] .create-project__button--success:hover,
+html[data-theme="dark"] .edit-project__button--primary:hover,
+html[data-theme="dark"] .edit-project__button--success:hover,
 html[data-theme="dark"] .project-card__action:hover,
 html[data-theme="dark"] .project-card__action--ghost:hover,
 html[data-theme="dark"] .project-card__action--primary:hover,
@@ -848,4 +994,60 @@ html[data-theme="dark"] a.project-card__action:hover {
 	color: #ffffff !important;
 	border: 1px solid #ffffff !important;
 	border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .navbar__cta-btn:hover *,
+html[data-theme="dark"] .pub-btn--windows:hover *,
+html[data-theme="dark"] .pub-btn--primary:hover *,
+html[data-theme="dark"] .btn--primary:hover *,
+html[data-theme="dark"] .dashboard-header__btn:hover *,
+html[data-theme="dark"] .summary-btn:hover *,
+html[data-theme="dark"] .my-projects__empty-action:hover *,
+html[data-theme="dark"] .apps-empty__action:hover *,
+html[data-theme="dark"] .modal__button--primary:hover *,
+html[data-theme="dark"] .event-modal__btn:hover *,
+html[data-theme="dark"] .create-project__button--primary:hover *,
+html[data-theme="dark"] .create-project__button--success:hover *,
+html[data-theme="dark"] .edit-project__button--primary:hover *,
+html[data-theme="dark"] .edit-project__button--success:hover *,
+html[data-theme="dark"] .project-card__action:hover *,
+html[data-theme="dark"] .project-card__action--ghost:hover *,
+html[data-theme="dark"] .project-card__action--primary:hover *,
+html[data-theme="dark"] a.project-card__action:hover * {
+	color: #ffffff !important;
+}
+
+html[data-theme="dark"] .project-card__action:hover svg,
+html[data-theme="dark"] .pub-btn--windows:hover svg,
+html[data-theme="dark"] .dashboard-header__btn:hover svg,
+html[data-theme="dark"] .btn--primary:hover svg {
+	stroke: #ffffff !important;
+	fill: #ffffff !important;
+	color: #ffffff !important;
+}
+
+/* =========================================================================
+ * STRICT UNIVERSAL FINAL OVERRIDE: ZERO BOLD FONT SITE-WIDE
+ * Guarantees that no element, class, tag, pseudo-element, or inline styling
+ * can display bold or semi-bold weights anywhere across the website.
+ * ========================================================================= */
+*,
+*::before,
+*::after,
+html *,
+body *,
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6,
+html body p, html body span, html body div, html body a, html body button,
+html body input, html body select, html body textarea,
+html body strong, html body b, html body th, html body td, html body label, html body li,
+html body dt, html body dd, html body blockquote,
+html body [class*="btn"], html body [class*="title"], html body [class*="heading"],
+html body [class*="tab"], html body [class*="badge"], html body [class*="card"],
+html body [class*="name"], html body [class*="header"], html body [class*="nav"],
+html body [class*="text"], html body [class*="label"], html body [class*="hero"] {
+	font-weight: 400 !important;
+}
+
+strong, b {
+	font-weight: 400 !important;
 }

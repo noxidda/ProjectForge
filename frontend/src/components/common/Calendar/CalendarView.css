@@ -351,8 +351,8 @@ html[data-theme="dark"] .close-btn {
 }
 
 html[data-theme="dark"] .close-btn:hover {
-  background: #ffffff;
-  color: #08080a;
+  background: #ffffff !important;
+  color: #08080a !important;
 }
 
 html[data-theme="dark"] .event-modal__grid {
@@ -377,7 +377,16 @@ html[data-theme="dark"] .event-modal__btn {
   border-color: #ffffff !important;
 }
 
+html[data-theme="dark"] .event-modal__btn * {
+  color: #08080a !important;
+}
+
 html[data-theme="dark"] .event-modal__btn:hover {
-  background: #e4e4e7 !important;
-  border-color: #e4e4e7 !important;
+  background: #08080a !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .event-modal__btn:hover * {
+  color: #ffffff !important;
 }

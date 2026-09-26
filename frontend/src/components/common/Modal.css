@@ -139,10 +139,18 @@ html[data-theme="dark"] .modal__button--primary {
   border-color: #ffffff !important;
 }
 
+html[data-theme="dark"] .modal__button--primary * {
+  color: #08080a !important;
+}
+
 html[data-theme="dark"] .modal__button--primary:hover {
   background: #08080a !important;
   color: #ffffff !important;
   border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .modal__button--primary:hover * {
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .modal__button--ghost {

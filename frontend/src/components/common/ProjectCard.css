@@ -315,10 +315,36 @@ html[data-theme="dark"] .project-card__owner-name {
 
 html[data-theme="dark"] .project-card__action {
   background: #ffffff !important;
-  color: #000000 !important;
+  color: #08080a !important;
+  border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .project-card__action *,
+html[data-theme="dark"] .project-card__action span,
+html[data-theme="dark"] .project-card__action strong {
+  color: #08080a !important;
+}
+
+html[data-theme="dark"] .project-card__action svg,
+html[data-theme="dark"] .project-card__action-arrow {
+  color: #08080a !important;
+  stroke: #08080a !important;
 }
 
 html[data-theme="dark"] .project-card__action:hover {
-  background: #e5e5e5 !important;
-  color: #000000 !important;
+  background: #08080a !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .project-card__action:hover *,
+html[data-theme="dark"] .project-card__action:hover span,
+html[data-theme="dark"] .project-card__action:hover strong {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .project-card__action:hover svg,
+html[data-theme="dark"] .project-card__action:hover .project-card__action-arrow {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
 }

@@ -454,3 +454,44 @@
   padding: 6px 12px;
   border-radius: 6px;
 }
+
+/* Dark Mode Overrides for WorkspaceSummary Buttons */
+html[data-theme="dark"] .summary-btn {
+  background: #ffffff !important;
+  color: #08080a !important;
+  border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .summary-btn * {
+  color: #08080a !important;
+}
+
+html[data-theme="dark"] .summary-btn:hover:not(:disabled) {
+  background: #08080a !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .summary-btn:hover:not(:disabled) * {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .ai-btn {
+  background: #181818 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+html[data-theme="dark"] .ai-btn * {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .ai-btn:hover:not(:disabled) {
+  background: #ffffff !important;
+  color: #08080a !important;
+  border-color: #ffffff !important;
+}
+
+html[data-theme="dark"] .ai-btn:hover:not(:disabled) * {
+  color: #08080a !important;
+}

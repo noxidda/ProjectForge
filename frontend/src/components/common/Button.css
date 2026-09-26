@@ -124,18 +124,59 @@
 }
 
 /* Dark Mode Button Overrides: White BG, Black Text -> Hover: Black BG, White Text, White Border */
-html[data-theme="dark"] .btn--primary,
-html[data-theme="dark"] .btn--secondary {
+html[data-theme="dark"] .btn--primary {
   background: #ffffff !important;
   color: #08080a !important;
   border: 1px solid #ffffff !important;
 }
 
-html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled),
-html[data-theme="dark"] .btn--secondary:hover:not(.btn--disabled) {
+html[data-theme="dark"] .btn--primary *,
+html[data-theme="dark"] .btn--primary span,
+html[data-theme="dark"] .btn--primary strong {
+  color: #08080a !important;
+}
+
+html[data-theme="dark"] .btn--primary svg {
+  color: #08080a !important;
+  stroke: currentColor !important;
+}
+
+html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled) {
   background: #08080a !important;
   color: #ffffff !important;
   border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled) *,
+html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled) span,
+html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled) strong {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .btn--primary:hover:not(.btn--disabled) svg {
+  color: #ffffff !important;
+  stroke: currentColor !important;
+}
+
+html[data-theme="dark"] .btn--secondary {
+  background: #1c1c1c !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+html[data-theme="dark"] .btn--secondary *,
+html[data-theme="dark"] .btn--secondary span {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .btn--secondary:hover:not(.btn--disabled) {
+  background: #282828 !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
+}
+
+html[data-theme="dark"] .btn--secondary:hover:not(.btn--disabled) * {
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .btn--outline {
@@ -148,6 +189,12 @@ html[data-theme="dark"] .btn--outline:hover:not(.btn--disabled) {
   background: #ffffff !important;
   color: #08080a !important;
   border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .btn--outline:hover:not(.btn--disabled) *,
+html[data-theme="dark"] .btn--outline:hover:not(.btn--disabled) span,
+html[data-theme="dark"] .btn--outline:hover:not(.btn--disabled) strong {
+  color: #08080a !important;
 }
 
 html[data-theme="dark"] .btn--ghost {

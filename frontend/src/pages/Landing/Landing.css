@@ -328,19 +328,57 @@ html[data-theme="dark"] .pub-chapter-block__slash {
 }
 
 html[data-theme="dark"] .pub-btn--primary,
-html[data-theme="dark"] .pub-btn--secondary,
 html[data-theme="dark"] .pub-btn--windows {
   background: #ffffff !important;
   color: #08080a !important;
   border: 1px solid #ffffff !important;
 }
 
+html[data-theme="dark"] .pub-btn--primary *,
+html[data-theme="dark"] .pub-btn--primary span,
+html[data-theme="dark"] .pub-btn--windows *,
+html[data-theme="dark"] .pub-btn--windows span {
+  color: #08080a !important;
+}
+
+html[data-theme="dark"] .pub-btn--windows svg {
+  fill: #08080a !important;
+  color: #08080a !important;
+}
+
 html[data-theme="dark"] .pub-btn--primary:hover,
-html[data-theme="dark"] .pub-btn--secondary:hover,
 html[data-theme="dark"] .pub-btn--windows:hover {
   background: #08080a !important;
   color: #ffffff !important;
   border: 1px solid #ffffff !important;
+}
+
+html[data-theme="dark"] .pub-btn--primary:hover *,
+html[data-theme="dark"] .pub-btn--primary:hover span,
+html[data-theme="dark"] .pub-btn--windows:hover *,
+html[data-theme="dark"] .pub-btn--windows:hover span {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .pub-btn--windows:hover svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .pub-btn--secondary {
+  background: #141416 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+html[data-theme="dark"] .pub-btn--secondary * {
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .pub-btn--secondary:hover {
+  background: #242428 !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.45) !important;
 }
 
 html[data-theme="dark"] .pub-btn--outline {
