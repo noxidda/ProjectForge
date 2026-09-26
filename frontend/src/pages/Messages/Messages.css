@@ -1,3 +1,19 @@
+:root {
+  --color-background: var(--bg-card);
+  --color-card-bg: var(--color-paper);
+  --color-text: var(--color-text-dark);
+  --color-border: var(--border-color);
+  --color-primary: var(--color-text-dark);
+}
+
+html[data-theme="dark"] {
+  --color-background: #18181f;
+  --color-card-bg: #202028;
+  --color-text: #ffffff;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-primary: #ffffff;
+}
+
 .messages-layout {
   display: flex;
   height: calc(100vh - 210px);
@@ -7,7 +23,7 @@
   border: 1px solid var(--color-border);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 /* Sidebar */
@@ -49,7 +65,7 @@
 .messages-search input {
   width: 100%;
   padding: 10px 12px 10px 36px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--bg-card);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   color: var(--color-text);

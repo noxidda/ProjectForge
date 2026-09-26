@@ -351,27 +351,27 @@ h1, h2, h3, h4, h5, h6 {
 /* Editorial Display Typography Utility Classes */
 .display-hero {
 	font-family: var(--font-sans);
-	font-size: clamp(2.5rem, 6vw, 5.5rem);
+	font-size: clamp(2rem, 4.5vw, 3.8rem);
 	font-weight: 400 !important;
 	line-height: 1.05;
-	letter-spacing: -0.035em;
+	letter-spacing: -0.03em;
 	color: var(--text-main);
 }
 
 .display-chapter {
 	font-family: var(--font-sans);
-	font-size: clamp(2rem, 4.5vw, 4rem);
+	font-size: clamp(1.6rem, 3.2vw, 2.6rem);
 	font-weight: 400 !important;
 	line-height: 1.1;
-	letter-spacing: -0.03em;
+	letter-spacing: -0.025em;
 }
 
 .display-stat {
 	font-family: var(--font-sans);
-	font-size: clamp(2.8rem, 6.5vw, 6rem);
+	font-size: clamp(1.8rem, 3.8vw, 3.2rem);
 	font-weight: 400 !important;
 	line-height: 1;
-	letter-spacing: -0.04em;
+	letter-spacing: -0.03em;
 }
 
 .eyebrow {
@@ -439,12 +439,18 @@ html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
 	outline-offset: 2px;
 }
 
-/* GLOBAL DASHBOARD LAYOUT */
-.dashboard-page {
-	width: 95vw;
-	max-width: 1800px;
-	margin: 0 auto;
-	padding: 40px 0;
+/* GLOBAL DASHBOARD LAYOUT & UNIVERSAL PAGE SPACING */
+.dashboard-page,
+.browse-page,
+.account,
+.workspace,
+.learning-archive,
+.calendar-page {
+	width: 95vw !important;
+	max-width: 1800px !important;
+	margin: 0 auto !important;
+	padding-top: 20px !important;
+	padding-bottom: 75px !important;
 }
 
 .dashboard-header {
@@ -457,10 +463,11 @@ html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
 }
 
 .dashboard-title {
-	font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+	font-size: clamp(1.4rem, 2.4vw, 1.95rem) !important;
 	font-weight: 400 !important;
-	line-height: 1.1;
-	letter-spacing: -0.035em;
+	text-transform: uppercase !important;
+	letter-spacing: 0.05em !important;
+	line-height: 1.2;
 	color: var(--text-main);
 	margin: 0 0 6px;
 	display: inline-block;

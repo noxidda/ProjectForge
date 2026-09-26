@@ -488,9 +488,9 @@ html[data-theme="dark"] .btn-apply-header:hover:not(:disabled) {
 	font-size: clamp(1.4rem, 2.5vw, 1.9rem);
 	font-weight: 400 !important;
 	line-height: 1.2;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	color: #000000 !important;
+	color: var(--color-text-dark) !important;
 	margin: 0;
 	padding: 0;
 	border: none !important;

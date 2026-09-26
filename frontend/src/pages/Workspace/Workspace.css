@@ -17,10 +17,11 @@
 }
 
 .workspace__title {
-  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-  font-weight: 800;
-  line-height: 1.1;
-  letter-spacing: -0.035em;
+  font-size: clamp(1.4rem, 2.4vw, 1.95rem) !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  line-height: 1.2;
+  letter-spacing: 0.05em !important;
   color: var(--color-text-dark);
   margin-bottom: 8px;
 }
@@ -49,7 +50,7 @@
 .workspace__tabs {
   display: flex;
   gap: 6px;
-  margin: 20px 0 28px;
+  margin: 12px 0 20px;
   padding: 4px;
   border-radius: 999px;
   background: var(--bg-card);
@@ -409,7 +410,7 @@ html[data-theme="dark"] .workspace-dev__connect-box button.btn--primary:hover {
   position: absolute;
   bottom: 100%;
   right: 0;
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 8px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.1);
@@ -491,9 +492,9 @@ html[data-theme="dark"] .workspace-dev__connect-box button.btn--primary:hover {
 }
 
 .workspace-chat__composer-box:focus-within {
-  border-color: #121214;
+  border-color: var(--color-text-dark);
   box-shadow: 0 0 0 3px rgba(18, 18, 20, 0.06);
-  background: #ffffff;
+  background: var(--bg-card);
 }
 
 .workspace-chat__attachments-preview {
@@ -509,12 +510,12 @@ html[data-theme="dark"] .workspace-dev__connect-box button.btn--primary:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   padding: 4px 10px;
   border-radius: 20px;
   font-size: 12px;
-  color: #121214;
+  color: var(--color-text-dark);
   font-weight: 500;
   box-shadow: 0 1px 4px rgba(0,0,0,0.03);
 }

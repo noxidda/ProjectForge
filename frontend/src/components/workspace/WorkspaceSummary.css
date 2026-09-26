@@ -25,7 +25,7 @@
 }
 
 .summary-card {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 24px;
@@ -36,7 +36,7 @@
   font-size: 14px;
   line-height: 1.6;
   color: var(--color-text-dark);
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 24px;
@@ -77,7 +77,7 @@
 }
 
 .summary-stat-card {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 24px;
@@ -253,7 +253,7 @@
 
 /* Takeaway */
 .takeaway-card {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
 }
 
@@ -318,7 +318,7 @@
 
 /* AI Future */
 .ai-card {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
 }
 
@@ -420,7 +420,7 @@
 }
 
 .github-stats-card {
-  background: #ffffff;
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 10px;
   padding: 20px;

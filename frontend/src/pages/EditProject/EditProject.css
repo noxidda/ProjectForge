@@ -38,15 +38,17 @@
 }
 
 .edit-project__title {
-	font-size: clamp(2rem, 4vw, 3rem);
-	font-weight: 800;
+	font-size: clamp(1.4rem, 2.4vw, 1.95rem) !important;
+	font-weight: 400 !important;
+	text-transform: uppercase !important;
+	line-height: 1.2;
+	letter-spacing: 0.05em !important;
 	color: var(--color-text-dark);
 	margin: 0 0 10px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid var(--color-text-dark);
+	border-bottom: 1.5px solid var(--color-text-dark);
 	display: block;
 	width: 100%;
-	letter-spacing: -0.03em;
 }
 
 .edit-project__subtitle {

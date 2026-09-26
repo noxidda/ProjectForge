@@ -10,12 +10,14 @@
 }
 
 .create-project__title {
-	font-size: clamp(2rem, 4vw, 3rem);
-	font-weight: 800;
+	font-size: clamp(1.4rem, 2.4vw, 1.95rem) !important;
+	font-weight: 400 !important;
+	text-transform: uppercase !important;
+	line-height: 1.2;
+	letter-spacing: 0.05em !important;
 	color: var(--color-text-dark);
 	margin: 0 0 6px;
 	display: inline-block;
-	letter-spacing: -0.03em;
 }
 
 .create-project__subtitle {
@@ -77,7 +79,7 @@
 }
 
 .create-project__step-circle.is-current {
-	background: #ffffff;
+	background: var(--bg-card);
 	color: var(--color-text-dark);
 	border: 2px solid var(--color-text-dark);
 }

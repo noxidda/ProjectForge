@@ -1,6 +1,6 @@
 .project-card {
   position: relative;
-  border-radius: 20px;
+  border-radius: 12px;
   background: var(--bg-card, #ffffff);
   border: 1px solid rgba(0, 0, 0, 0.08);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.02);
@@ -21,19 +21,19 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 18px 24px;
+  gap: 14px;
+  padding: 13px 18px;
   background: #ded7cc;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .project-card__title {
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
   color: #111111;
   margin: 0;
-  line-height: 1.2;
-  letter-spacing: -0.03em;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -41,10 +41,10 @@
 
 /* Card Body */
 .project-card__body {
-  padding: 20px 24px 22px 24px;
+  padding: 14px 18px 16px 18px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   flex: 1;
 }
 
@@ -52,19 +52,19 @@
 .project-card__stats-row {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
 .project-card__stat-col {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 2px;
 }
 
 .project-card__stat-divider {
   width: 1px;
-  height: 38px;
+  height: 28px;
   background: #e2e8f0;
 }
 
@@ -76,8 +76,8 @@
 }
 
 .project-card__stat-value {
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   color: #0f172a;
   line-height: 1.1;
   letter-spacing: -0.02em;
