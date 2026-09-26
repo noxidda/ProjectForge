@@ -240,7 +240,7 @@
 }
 
 html[data-theme="dark"] .edit-project__card {
-	background: #202028;
+	background: #121212;
 	border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -250,14 +250,14 @@ html[data-theme="dark"] .edit-project__step-circle.is-completed {
 }
 
 html[data-theme="dark"] .edit-project__step-circle.is-current {
-	background: #202028;
+	background: #121212;
 	color: #ffffff;
 	border: 2px solid #ffffff;
 }
 
 html[data-theme="dark"] .edit-project__step-circle.is-upcoming {
-	background: #18181c;
-	color: #a0a0b0;
+	background: #161616;
+	color: #a3a3a3;
 	border-color: rgba(255, 255, 255, 0.18);
 }
 

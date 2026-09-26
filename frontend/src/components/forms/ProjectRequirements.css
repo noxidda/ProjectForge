@@ -163,7 +163,7 @@
 }
 
 html[data-theme="dark"] .project-req__results {
-  background: #202028;
+  background: #161616;
   border-color: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
@@ -179,18 +179,18 @@ html[data-theme="dark"] .project-req__result:hover {
 }
 
 html[data-theme="dark"] .project-req__input {
-  background: #1c1c22;
+  background: #141414;
   color: #ffffff;
   border-color: rgba(255, 255, 255, 0.2);
 }
 
 html[data-theme="dark"] .project-req__input:hover {
-  background: #24242e;
+  background: #1a1a1a;
   border-color: rgba(255, 255, 255, 0.35);
 }
 
 html[data-theme="dark"] .project-req__input:focus {
-  background: #24242e;
+  background: #1a1a1a;
   border-color: #ffffff;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
 }

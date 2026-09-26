@@ -49,8 +49,8 @@ html[data-theme="dark"] .workspace-column,
 html[data-theme="dark"] .workspace-task,
 html[data-theme="dark"] .modal-container,
 html[data-theme="dark"] .task-details-drawer {
-	background-color: #202028 !important;
-	color: #F9F8F5 !important;
+	background-color: #121212 !important;
+	color: #FFFFFF !important;
 	border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
@@ -72,9 +72,11 @@ html[data-theme="dark"] .workspace-page,
 html[data-theme="dark"] .account-page,
 html[data-theme="dark"] .create-project-page,
 html[data-theme="dark"] .applications-page,
-html[data-theme="dark"] .dashboard-page {
-	background-color: #09090B !important;
-	color: #F9F8F5 !important;
+html[data-theme="dark"] .dashboard-page,
+html[data-theme="dark"] .calendar-page,
+html[data-theme="dark"] .help-page {
+	background-color: #000000 !important;
+	color: #FFFFFF !important;
 }
 
 /* Headings & Main Typography Overrides */
@@ -93,7 +95,7 @@ html[data-theme="dark"] .project-card__title,
 html[data-theme="dark"] .overview-card-title,
 html[data-theme="dark"] .summary-section__title,
 html[data-theme="dark"] .modal-title {
-	color: #F9F8F5 !important;
+	color: #FFFFFF !important;
 }
 
 /* Secondary & Muted Text Overrides */
@@ -107,7 +109,7 @@ html[data-theme="dark"] .pub-cta__desc,
 html[data-theme="dark"] .browse-page__subtitle,
 html[data-theme="dark"] .project-card__desc,
 html[data-theme="dark"] .workspace-task__meta {
-	color: #D1D1DB;
+	color: #B5B5B5;
 }
 
 html[data-theme="dark"] strong {
@@ -123,14 +125,14 @@ html[data-theme="dark"] .browse-sidebar__select,
 html[data-theme="dark"] .dashboard-sidebar__select,
 html[data-theme="dark"] .browse-page__select,
 html[data-theme="dark"] .workspace-select {
-	background-color: #1C1C22 !important;
+	background-color: #161616 !important;
 	color: #FFFFFF !important;
-	border-color: rgba(255, 255, 255, 0.25) !important;
+	border-color: rgba(255, 255, 255, 0.18) !important;
 }
 
 html[data-theme="dark"] input::placeholder,
 html[data-theme="dark"] textarea::placeholder {
-	color: #A0A0B0 !important;
+	color: #737373 !important;
 }
 
 select,
@@ -167,9 +169,9 @@ html[data-theme="dark"] .summary-skill-chip,
 html[data-theme="dark"] .summary-achievements li,
 html[data-theme="dark"] .summary-leaderboard__item,
 html[data-theme="dark"] .summary-timeline__content {
-	background-color: #1C1C22 !important;
+	background-color: #181818 !important;
 	color: #FFFFFF !important;
-	border: 1px solid rgba(255, 255, 255, 0.18) !important;
+	border: 1px solid rgba(255, 255, 255, 0.14) !important;
 }
 
 /* Universal Avatar Letter & Badge Styling in Dark Mode */
@@ -202,7 +204,7 @@ html[data-theme="dark"] .btn-outline {
 
 html[data-theme="dark"] .pub-btn--outline:hover,
 html[data-theme="dark"] .btn-outline:hover {
-	background-color: #2A2A34 !important;
+	background-color: #222222 !important;
 	border-color: #FFFFFF !important;
 }
 

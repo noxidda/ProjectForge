@@ -93,13 +93,13 @@
 html[data-theme="dark"] .project-detail__action-btn,
 html[data-theme="dark"] .project-detail__github-btn {
 	background: #000000 !important;
-	color: #EDE8DF !important;
+	color: #FFFFFF !important;
 	border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 html[data-theme="dark"] .project-detail__action-btn:hover,
 html[data-theme="dark"] .project-detail__github-btn:hover {
-	background: #181820 !important;
+	background: #1c1c1c !important;
 	color: #FFFFFF !important;
 	text-decoration: none !important;
 }
@@ -165,15 +165,15 @@ html[data-theme="dark"] .project-detail a.project-detail__about-github-link,
 html[data-theme="dark"] .project-detail__about-github-link {
 	background: #000000 !important;
 	background-color: #000000 !important;
-	color: #EDE8DF !important;
-	fill: #EDE8DF !important;
+	color: #FFFFFF !important;
+	fill: #FFFFFF !important;
 	border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
 html[data-theme="dark"] .project-detail a.project-detail__about-github-link:hover,
 html[data-theme="dark"] .project-detail__about-github-link:hover {
-	background: #181820 !important;
-	background-color: #181820 !important;
+	background: #1c1c1c !important;
+	background-color: #1c1c1c !important;
 	color: #FFFFFF !important;
 	fill: #FFFFFF !important;
 }
@@ -234,8 +234,8 @@ html[data-theme="dark"] .project-detail a:not(.btn):not(.btn-apply-header):not(.
 }
 
 html[data-theme="dark"] .project-detail__info-sidebar-card {
-	background: #202028 !important;
-	border: none !important;
+	background: #121212 !important;
+	border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .project-detail__sidebar-card-title {
@@ -251,7 +251,7 @@ html[data-theme="dark"] .project-detail__info-sidebar-card {
 
 html[data-theme="dark"] .project-detail__sidebar-card-title {
 	border-bottom-color: rgba(255, 255, 255, 0.12);
-	color: #D1D1DB;
+	color: #B5B5B5;
 }
 
 .project-detail__guide-box {
@@ -265,7 +265,7 @@ html[data-theme="dark"] .project-detail__sidebar-card-title {
 }
 
 html[data-theme="dark"] .project-detail__guide-box {
-	background: #181820 !important;
+	background: #161616 !important;
 	border: none !important;
 }
 
@@ -294,22 +294,22 @@ html[data-theme="dark"] .project-detail__guide-heading {
 }
 
 html[data-theme="dark"] .project-detail__guide-desc {
-	color: #A1A1AA !important;
+	color: #B5B5B5 !important;
 }
 
 html[data-theme="dark"] .project-detail__actions-panel {
-	background: #202028 !important;
-	border: none !important;
+	background: #121212 !important;
+	border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 html[data-theme="dark"] .project-detail__action-btn {
-	background: #272734 !important;
-	border: none !important;
+	background: #181818 !important;
+	border: 1px solid rgba(255, 255, 255, 0.1) !important;
 	color: #FFFFFF !important;
 }
 
 html[data-theme="dark"] .project-detail__action-btn:hover {
-	background: #323242 !important;
+	background: #222222 !important;
 }
 
 .project-detail__action-num {
@@ -353,8 +353,8 @@ html[data-theme="dark"] .project-detail__action-num {
 }
 
 html[data-theme="dark"] .project-detail__card-container {
-	background: #202028 !important;
-	border: none !important;
+	background: #121212 !important;
+	border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .project-detail__divider {
@@ -461,7 +461,7 @@ html[data-theme="dark"] .project-detail__card-container {
 }
 
 html[data-theme="dark"] .project-detail__title-banner {
-  background: #141418 !important;
+  background: #161616 !important;
   color: #FFFFFF !important;
   border-bottom: none !important;
 }
@@ -520,7 +520,7 @@ html[data-theme="dark"] .btn-apply-header:hover:not(:disabled) {
 }
 
 html[data-theme="dark"] .project-detail__details-container {
-	background: #181820 !important;
+	background: #161616 !important;
 	border: none !important;
 }
 
@@ -598,7 +598,7 @@ html[data-theme="dark"] .project-detail__detail-value {
 }
 
 html[data-theme="dark"] .project-detail__skills-bar {
-	background: #181820 !important;
+	background: #161616 !important;
 	border: none !important;
 	color: #FFFFFF !important;
 }
@@ -723,7 +723,7 @@ html[data-theme="dark"] .project-detail__section-title {
 }
 
 html[data-theme="dark"] .project-detail__card {
-	background: #181820 !important;
+	background: #161616 !important;
 	border: none !important;
 }
 
@@ -829,7 +829,7 @@ html[data-theme="dark"] .project-detail__card {
 
 html[data-theme="dark"] .project-detail__skills .badge--skill,
 html[data-theme="dark"] .project-detail__roles .badge--skill {
-  background: #181820 !important;
+  background: #161616 !important;
   color: #FFFFFF !important;
 }
 
@@ -885,7 +885,7 @@ html[data-theme="dark"] .project-detail__roles .badge--skill {
 }
 
 html[data-theme="dark"] .project-detail__team-card {
-	background: #181820 !important;
+	background: #161616 !important;
 	border: none !important;
 }
 

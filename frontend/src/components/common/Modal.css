@@ -107,7 +107,7 @@
 }
 
 html[data-theme="dark"] .modal__card {
-  background: #202028 !important;
+  background: #121212 !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.12) !important;
 }
@@ -118,11 +118,11 @@ html[data-theme="dark"] .modal__title {
 }
 
 html[data-theme="dark"] .modal__content {
-  color: #d1d1db !important;
+  color: #b5b5b5 !important;
 }
 
 html[data-theme="dark"] .modal__close {
-  background: #202028 !important;
+  background: #181818 !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.2) !important;
 }

@@ -129,7 +129,7 @@
 
 /* Dark mode overrides */
 html[data-theme="dark"] .upcoming-events-container {
-  background-color: #202028 !important;
+  background-color: #121212 !important;
   border-color: rgba(255, 255, 255, 0.12) !important;
 }
 

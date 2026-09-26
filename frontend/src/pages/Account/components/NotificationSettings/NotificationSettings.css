@@ -110,7 +110,7 @@
 
 /* Dark mode overrides */
 html[data-theme="dark"] .notification-settings-container {
-  background-color: #202028 !important;
+  background-color: #121212 !important;
   border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
@@ -124,9 +124,9 @@ html[data-theme="dark"] .notification-setting-item:hover {
 }
 
 html[data-theme="dark"] .toggle-btn {
-  background-color: #27272e;
+  background-color: #1c1c1c;
   border-color: rgba(255, 255, 255, 0.15);
-  color: #a1a1aa;
+  color: #a3a3a3;
 }
 
 html[data-theme="dark"] .toggle-btn.active {

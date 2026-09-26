@@ -388,24 +388,24 @@ html[data-theme="dark"] .profile-modal__avatar-fallback {
 }
 
 html[data-theme="dark"] .profile-modal__box {
-  background: #18181f !important;
+  background: #161616 !important;
   border-color: rgba(255, 255, 255, 0.15) !important;
 }
 
 html[data-theme="dark"] .profile-modal__legend {
-  color: #a1a1aa !important;
+  color: #a3a3a3 !important;
 }
 
 html[data-theme="dark"] .profile-modal__social-link,
 html[data-theme="dark"] .profile-modal__project-btn {
-  background: #1c1c22 !important;
+  background: #181818 !important;
   color: #ffffff !important;
   border-color: rgba(255, 255, 255, 0.18) !important;
 }
 
 html[data-theme="dark"] .profile-modal__social-link:hover,
 html[data-theme="dark"] .profile-modal__project-btn:hover {
-  background: #282832 !important;
+  background: #222222 !important;
   border-color: rgba(255, 255, 255, 0.3) !important;
 }
 

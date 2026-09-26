@@ -365,7 +365,7 @@
 .stat-value {
   font-size: 24px;
   font-weight: 700;
-  color: #0a84ff;
+  color: var(--color-text-dark);
 }
 
 .stat-label {
@@ -549,7 +549,7 @@
 
 .evidence-link {
   font-size: 13px;
-  color: #0a84ff;
+  color: var(--color-text-dark);
   text-decoration: underline;
   word-break: break-all;
 }
@@ -664,25 +664,25 @@
 /* Dark Mode Overrides for Journey Tab */
 html[data-theme="dark"] .journey-card,
 html[data-theme="dark"] .journey-progress-dashboard {
-  background: #27272E !important;
-  border-color: rgba(255, 255, 255, 0.18) !important;
-  color: #F9F8F5 !important;
+  background: #121212 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .journey-empty-state {
-  background: #202026 !important;
-  border-color: rgba(255, 255, 255, 0.18) !important;
+  background: #161616 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 html[data-theme="dark"] .journey-list li,
 html[data-theme="dark"] .journey-challenge-item {
-  background: #202026 !important;
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  background: #181818 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
   color: #FFFFFF !important;
 }
 
 html[data-theme="dark"] .journey-skill-chip {
-  background: #343440 !important;
+  background: #222222 !important;
   border: none !important;
   color: #FFFFFF !important;
 }
@@ -690,20 +690,20 @@ html[data-theme="dark"] .journey-skill-chip {
 html[data-theme="dark"] .journey-tab input,
 html[data-theme="dark"] .journey-tab textarea,
 html[data-theme="dark"] .journey-tab select {
-  background: #1c1c22 !important;
+  background: #161616 !important;
   color: #FFFFFF !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
 
 html[data-theme="dark"] .journey-timeline__dot {
   background: #FFFFFF !important;
-  border-color: #27272E !important;
+  border-color: #121212 !important;
 }
 
 html[data-theme="dark"] .journey-tab input:focus,
 html[data-theme="dark"] .journey-tab textarea:focus,
 html[data-theme="dark"] .journey-tab select:focus {
-  background: #24242e !important;
+  background: #1e1e1e !important;
   border-color: #ffffff !important;
 }
 
@@ -713,13 +713,13 @@ html[data-theme="dark"] .journey-list-item {
 }
 
 html[data-theme="dark"] .journey-list-item:hover {
-  border-color: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
 }
 
 html[data-theme="dark"] .skill-journey-badge {
-  background: #202026;
+  background: #1c1c1c;
   border-color: rgba(255, 255, 255, 0.15);
-  color: #a1a1aa;
+  color: #a3a3a3;
 }
 
 html[data-theme="dark"] .skill-journey-badge strong {
@@ -729,15 +729,15 @@ html[data-theme="dark"] .skill-journey-badge strong {
 html[data-theme="dark"] .skill-journey-badge--highlight {
   background: #ffffff !important;
   border-color: #ffffff !important;
-  color: #0c0c0e !important;
+  color: #000000 !important;
 }
 
 html[data-theme="dark"] .skill-journey-badge--highlight strong {
-  color: #0c0c0e !important;
+  color: #000000 !important;
 }
 
 html[data-theme="dark"] .learning-badge {
-  background: #202026;
+  background: #1c1c1c;
   border-color: rgba(255, 255, 255, 0.15);
   color: #ffffff;
 }

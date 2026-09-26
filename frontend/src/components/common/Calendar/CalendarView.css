@@ -339,15 +339,15 @@
 
 /* Dark mode overrides for event modal */
 html[data-theme="dark"] .event-modal {
-  background-color: #202028 !important;
+  background-color: #121212 !important;
   border-color: rgba(255, 255, 255, 0.15) !important;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6) !important;
 }
 
 html[data-theme="dark"] .close-btn {
-  background: #2a2a35;
+  background: #1c1c1c;
   border-color: rgba(255, 255, 255, 0.12);
-  color: #d1d1db;
+  color: #ffffff;
 }
 
 html[data-theme="dark"] .close-btn:hover {
@@ -356,19 +356,19 @@ html[data-theme="dark"] .close-btn:hover {
 }
 
 html[data-theme="dark"] .event-modal__grid {
-  background: #18181f;
+  background: #181818;
   border-color: rgba(255, 255, 255, 0.1);
 }
 
 html[data-theme="dark"] .event-modal__badge {
-  background: #2a2a35;
+  background: #1c1c1c;
   border-color: rgba(255, 255, 255, 0.15);
   color: #ffffff;
 }
 
 html[data-theme="dark"] .event-modal__tag {
   background: rgba(255, 255, 255, 0.08);
-  color: #d1d1db;
+  color: #ffffff;
 }
 
 html[data-theme="dark"] .event-modal__btn {

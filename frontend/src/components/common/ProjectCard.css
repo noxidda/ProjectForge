@@ -102,10 +102,10 @@
 }
 
 html[data-theme="dark"] .project-card__status-row .badge {
-  background: #2A2925 !important;
-  background-color: #2A2925 !important;
-  color: #F9F8F5 !important;
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  background: #1c1c1c !important;
+  background-color: #1c1c1c !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 /* Skills Required - Flexible Pill */
@@ -257,66 +257,68 @@ html[data-theme="dark"] .project-card__status-row .badge {
 
 /* Dark Mode Overrides */
 html[data-theme="dark"] .project-card {
-  background: #18181f !important;
-  border-color: rgba(255, 255, 255, 0.08) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+  background: #111111 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6) !important;
 }
 
 html[data-theme="dark"] .project-card__header {
-  background: #25242b !important;
-  border-bottom-color: rgba(255, 255, 255, 0.08) !important;
+  background: #181818 !important;
+  border-bottom-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 html[data-theme="dark"] .project-card__title {
-  color: #f8fafc !important;
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .project-card__stat-label {
-  color: #94a3b8 !important;
+  color: #a3a3a3 !important;
 }
 
 html[data-theme="dark"] .project-card__stat-value {
-  color: #f8fafc !important;
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .project-card__stat-divider {
-  background: rgba(255, 255, 255, 0.1) !important;
+  background: rgba(255, 255, 255, 0.12) !important;
 }
 
 html[data-theme="dark"] .project-card__skills-pill {
-  background: #23232b !important;
+  background: #181818 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 html[data-theme="dark"] .project-card__skill-name {
-  color: #e2e8f0 !important;
+  color: #e5e5e5 !important;
 }
 
 html[data-theme="dark"] .project-card__skill-slash {
-  color: #64748b !important;
+  color: #737373 !important;
 }
 
 html[data-theme="dark"] .project-card__description {
-  color: #94a3b8 !important;
+  color: #b5b5b5 !important;
 }
 
 html[data-theme="dark"] .project-card__owner-avatar {
-  background: #f8fafc !important;
-  color: #0f172a !important;
+  background: #ffffff !important;
+  color: #000000 !important;
 }
 
 html[data-theme="dark"] .project-card__owner-initial {
-  color: #0f172a !important;
+  color: #000000 !important;
 }
 
 html[data-theme="dark"] .project-card__owner-name {
-  color: #f8fafc !important;
+  color: #ffffff !important;
 }
 
 html[data-theme="dark"] .project-card__action {
-  background: #f8fafc !important;
-  color: #0f172a !important;
+  background: #ffffff !important;
+  color: #000000 !important;
 }
 
 html[data-theme="dark"] .project-card__action:hover {
-  background: #ffffff !important;
+  background: #e5e5e5 !important;
+  color: #000000 !important;
 }

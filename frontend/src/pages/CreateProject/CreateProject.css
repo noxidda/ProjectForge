@@ -167,7 +167,7 @@ html[data-theme="dark"] .create-project__step-circle.is-completed {
 }
 
 html[data-theme="dark"] .create-project__step-circle.is-current {
-	background: #202028;
+	background: #121212;
 	color: #ffffff;
 	border: 2px solid #ffffff;
 }

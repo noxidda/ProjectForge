@@ -359,26 +359,26 @@ html[data-theme="dark"] .help-card:hover {
   margin-top: 20px;
   padding: 14px 16px;
   border-radius: 8px;
-  background: rgba(14, 165, 233, 0.08);
-  border: 1px solid rgba(14, 165, 233, 0.2);
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   color: var(--color-text-dark);
   font-size: 13.5px;
   line-height: 1.55;
 }
 
 html[data-theme="dark"] .help-protip-box {
-  background: rgba(56, 189, 248, 0.1);
-  border-color: rgba(56, 189, 248, 0.25);
+  background: #181818;
+  border-color: rgba(255, 255, 255, 0.14);
 }
 
 .help-protip-icon {
-  color: #0284c7;
+  color: var(--color-text-dark);
   flex-shrink: 0;
   margin-top: 1px;
 }
 
 html[data-theme="dark"] .help-protip-icon {
-  color: #38bdf8;
+  color: #ffffff;
 }
 
 /* Section Headings */

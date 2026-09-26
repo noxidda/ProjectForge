@@ -231,24 +231,24 @@
 }
 
 html[data-theme="dark"] .stat-box {
-  background: #202028;
+  background: #121212;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
 html[data-theme="dark"] .team-member-chip {
-  background: #24242a;
+  background: #181818;
   color: #f4f4f5;
   border-color: rgba(255, 255, 255, 0.15);
 }
 
 html[data-theme="dark"] .celebration-assets-section {
-  background: #202028;
+  background: #121212;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
 html[data-theme="dark"] .assets-card,
 html[data-theme="dark"] .educational-box {
-  background: #18181c;
+  background: #161616;
   border-color: rgba(255, 255, 255, 0.12);
 }
 
