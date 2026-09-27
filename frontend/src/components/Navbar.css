@@ -30,7 +30,7 @@ html[data-theme="dark"] .navbar.is-scrolled {
   background: rgba(0, 0, 0, 0.92) !important;
   backdrop-filter: blur(24px) saturate(190%) !important;
   -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
-  border-bottom: 1px solid transparent !important;
+  border-bottom: none !important;
   box-shadow: 0 6px 28px -4px rgba(0, 0, 0, 0.8) !important;
 }
 
